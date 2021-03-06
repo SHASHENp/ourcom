@@ -22,7 +22,7 @@ namespace ourcom
 {
 	void SqlCommand::Query(const char *sql)
 	{
-		prepared_sql_ = std;:move(sql);
+		prepared_sql_ = sql;
 	}
 
 	void SqlCommand::ExecuteQuery()
