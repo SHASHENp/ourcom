@@ -27,7 +27,6 @@ namespace ourcom
 
 	void SqlCommand::ExecuteQuery()
 	{
-
 	}
 
 
