@@ -23,6 +23,8 @@
 
 namespace ourcom
 {
+#pragma clang diagnostic push 
+#pragma clang diagnostic ignored "-Wconstexpr-not-const"
     
 template <typename Ty_>
 struct PreBind
@@ -378,5 +380,5 @@ public:
 private:
 	const char *member_;
 };
-
+#pragma clang diagnostic pop
 }
